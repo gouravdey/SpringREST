@@ -8,7 +8,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/rest")
-public class GreetController {
+public class WebController {
 
     @Autowired
     private EmployeeService employeeService;
